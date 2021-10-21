@@ -1,8 +1,8 @@
 {
   "id": "3419196c-f688-4be4-a70c-1004780d141d",
   "name": "KPICountingTool",
-  "publisher": "Default publisher",
-  "version": "1.0.0.0",
+  "publisher": "BCGeek",
+  "version": "1.0.0.1",
   "brief": "",
   "description": "",
   "privacyStatement": "",
@@ -22,8 +22,8 @@
   ],
   "resourceExposurePolicy": {
     "allowDebugging": true,
-    "allowDownloadingSource": false,
-    "includeSourceInSymbolFile": false
+    "allowDownloadingSource": true,
+    "includeSourceInSymbolFile": true
   },
   "runtime": "8.0"
 }
