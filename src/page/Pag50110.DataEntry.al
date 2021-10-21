@@ -1,9 +1,7 @@
 page 50110 "DataEntry"
 {
-
     Caption = 'Data Entry';
     PageType = StandardDialog;
-
     layout
     {
         area(content)
@@ -15,7 +13,6 @@ page 50110 "DataEntry"
             }
         }
     }
-
     var
         xgInteger: Integer;
 

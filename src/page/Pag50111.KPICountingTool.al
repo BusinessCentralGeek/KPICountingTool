@@ -1,18 +1,27 @@
-// Welcome to your new AL extension.
-// Remember that object names and IDs should be unique across all extensions.
-// AL snippets start with t*, like tpageext - give them a try and happy coding!
-
-pageextension 50110 "CustomerListExt" extends "Customer List"
+page 50111 "KPI Counting Tool"
 {
+
+    Caption = 'KPI Counting Tool';
+    PageType = Card;
+    UsageCategory = Tasks;
+    ApplicationArea = all;
+
+    layout
+    {
+
+    }
     actions
     {
-        addlast("&Customer")
+        area(Creation)
         {
-
             action(KPITool)
             {
                 ApplicationArea = All;
                 Image = TestReport;
+                Promoted = true;
+                PromotedIsBig = true;
+                PromotedOnly = true;
+                Caption = 'New query';
 
                 trigger OnAction()
                 var
